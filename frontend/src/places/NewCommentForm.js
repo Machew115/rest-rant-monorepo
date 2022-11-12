@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react"
-import { useHistory } from "react-router"
 
 function NewCommentForm({ place, onSubmit }) {
 
