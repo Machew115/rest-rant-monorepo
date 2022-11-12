@@ -6,7 +6,7 @@ function PlaceIndex(data) {
 	const history = useHistory()
 	
 	const [places, setPlaces] = useState([])
-//what it the world//
+
 	useEffect(() => {
 		const fetchData = async () => {
 			const response = await fetch(`http://localhost:5500/places`)
